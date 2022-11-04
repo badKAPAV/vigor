@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.vigor.mainFragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_vaultFragment"
+            app:destination="@id/vaultFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_appointmentFormFragment"
+            app:destination="@id/appointmentFormFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/vaultFragment"
+        android:name="com.example.vigor.mainFragments.VaultFragment"
+        android:label="Your Vault"
+        tools:layout="@layout/fragment_vault">
+        <action
+            android:id="@+id/action_vaultFragment_to_appointmentFragment"
+            app:destination="@id/appointmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/appointmentFragment"
+        android:name="com.example.vigor.mainFragments.AppointmentFragment"
+        android:label="Appointments"
+        tools:layout="@layout/fragment_appointment">
+        <action
+            android:id="@+id/action_appointmentFragment_to_storeFragment"
+            app:destination="@id/storeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storeFragment"
+        android:name="com.example.vigor.mainFragments.StoreFragment"
+        android:label="Buy Medicines"
+        tools:layout="@layout/fragment_store">
+        <action
+            android:id="@+id/action_storeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.vigor.mainFragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/appointmentFormFragment"
+        android:name="com.example.vigor.pageFragments.AppointmentFormFragment"
+        android:label="AppointmentFormFragment"
+        tools:layout="@layout/fragment_appointment_form">
+        <action
+            android:id="@+id/action_appointmentFormFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+
+</navigation>
