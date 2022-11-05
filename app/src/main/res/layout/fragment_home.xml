@@ -19,14 +19,14 @@
             <SearchView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:background="@drawable/search_bar_shape"
                 android:elevation="10dp"
                 android:iconifiedByDefault="false"
-                android:queryHint="Search for doctors"
+                android:queryBackground="@color/transparent"
+                android:queryHint="Search for doctors or categories"
                 android:scrollbarSize="0dp"
-                android:visibility="visible"
-                android:layout_margin="10dp"
-                android:queryBackground="@color/transparent"/>
+                android:visibility="visible" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -43,10 +43,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -81,10 +81,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -119,10 +119,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -157,10 +157,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -195,10 +195,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -247,11 +247,13 @@
                 android:textColor="@color/vigor_teal"
                 android:textSize="12sp" />-->
 
-            <LinearLayout
+            <!--<LinearLayout
                 android:layout_width="180dp"
                 android:layout_height="30dp"
                 android:layout_gravity="end"
-                android:orientation="horizontal">           <!--BOOK APPOINTMENT LAYOUT-->
+                android:orientation="horizontal"
+                android:id="@+id/btn_appointment_form"
+                android:clickable="true">           BOOK APPOINTMENT LAYOUT
 
                 <TextView
                     android:id="@+id/bookingFragmentOpener"
@@ -272,7 +274,20 @@
                     android:src="@drawable/ic_arrow_right" />
 
 
-            </LinearLayout>
+            </LinearLayout>-->
+
+            <Button
+                android:id="@+id/bt_appointment_form"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:backgroundTint="@color/transparent"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/book"
+                android:textAllCaps="false"
+                android:textColor="@color/vigor_teal" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -297,10 +312,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -334,10 +349,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -371,10 +386,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 

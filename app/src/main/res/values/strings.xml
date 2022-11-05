@@ -2,4 +2,44 @@
     <string name="app_name">vigor.in</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="select_category">Search for categories</string>
+    <string name="book">Book an appointment</string>
+
+    <string-array name="categories">
+        <item>""</item>
+        <item>Cardiology</item>
+        <item>Nephrology</item>
+        <item>E N T</item>
+        <item>Gastroenterology</item>
+        <item>Gynaecology</item>
+        <item>Orthology</item>
+    </string-array>
+
+    <string-array name="doctors">
+        <item>""</item>
+        <item>Dr. John Sinha</item>
+        <item>Dr. Ella Bose</item>
+        <item>Dr. Anne Rhoades</item>
+    </string-array>
+
+    <string-array name="chambers">
+        <item>""</item>
+        <item>Priya Pharmacy, Madhyamgram</item>
+        <item>Apollo Clinic, Newtown</item>
+        <item>Maa Pharmacy, Sodepur</item>
+        <item>ABC Medicines, Rajarhat</item>
+        <item>Homeo Centre, Newtown</item>
+        <item>Mamma Mia Meds, Badlapur</item>
+    </string-array>
+
+    <string-array name="payment_type">
+        <item>""</item>
+        <item>UPI</item>
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+        <item>Net Banking</item>
+        <item>Cash</item>
+    </string-array>
+
 </resources>
