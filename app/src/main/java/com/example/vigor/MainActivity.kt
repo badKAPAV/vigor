@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         navController=findNavController(R.id.fragmentContainerView)
         appBarConfiguration= AppBarConfiguration(setOf(R.id.homeFragment,R.id.vaultFragment,R.id.appointmentFragment,R.id.storeFragment,R.id.settingsFragment))
         setupActionBarWithNavController(navController,appBarConfiguration)
-
         bottomNav.setupWithNavController(navController)
     }
 
