@@ -5,35 +5,68 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="0dp"
+    android:backgroundTint="#B5B5B5"
     android:orientation="vertical"
     tools:context=".mainFragments.SettingsFragment">
 
-    <TextView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Hello"
-        android:fontFamily="@font/inter_semibold"
-        android:textColor="@color/vigor_teal"
-        android:textSize="20dp"
-        android:layout_marginLeft="15dp"/>
+        android:layout_height="100dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:text="Peter Parkour"
-        android:fontFamily="@font/inter_semibold"
-        android:textColor="@color/black"
-        android:textSize="27dp"
-        android:layout_marginLeft="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_broken_image" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:gravity="start"
+                    android:text="Peter Parkour"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:gravity="start"
+                    android:text="UID: 7407845358"
+                    android:textColor="#4A4A4A"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
 
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginTop="10dp"
-        app:cardElevation="7dp">
+        android:layout_marginTop="0dp"
+        app:cardElevation="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,10 +75,10 @@
             android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="19dp"
                 android:src="@drawable/ic_account" />
 
             <TextView
@@ -54,20 +87,20 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:fontFamily="@font/inter_semibold"
-                android:text="ACCOUNT SETTINGS"
+                android:text="Account "
                 android:textSize="12dp">                    <!--TEXT HERE-->
 
             </TextView>
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginTop="1dp"
-        app:cardElevation="7dp">
+        android:layout_marginTop="0dp"
+        app:cardElevation="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,10 +109,10 @@
             android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="19dp"
                 android:src="@drawable/ic_doctor" />
 
             <TextView
@@ -88,20 +121,20 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:fontFamily="@font/inter_semibold"
-                android:text="LOGIN AS DOCTOR"
+                android:text="Login as Doctor"
                 android:textSize="12dp">                    <!--TEXT HERE-->
 
             </TextView>
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginTop="1dp"
-        app:cardElevation="7dp">
+        android:layout_marginTop="0dp"
+        app:cardElevation="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -110,10 +143,10 @@
             android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="19dp"
                 android:src="@drawable/ic_help" />
 
             <TextView
@@ -122,20 +155,20 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:fontFamily="@font/inter_semibold"
-                android:text="ABOUT"
+                android:text="Help and Support"
                 android:textSize="12dp">                    <!--TEXT HERE-->
 
             </TextView>
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginTop="1dp"
-        app:cardElevation="7dp">
+        android:layout_marginTop="0dp"
+        app:cardElevation="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -144,10 +177,10 @@
             android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="19dp"
                 android:src="@drawable/ic_arrow_left" />
 
             <TextView
@@ -156,7 +189,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:fontFamily="@font/inter_semibold"
-                android:text="LOG OUT"
+                android:text="Log out"
                 android:textColor="@color/red"
                 android:textSize="12dp">                    <!--TEXT HERE-->
 
@@ -164,6 +197,6 @@
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
