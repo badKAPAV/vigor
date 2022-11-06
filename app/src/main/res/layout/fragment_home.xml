@@ -67,7 +67,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_medium"
                                 android:text="Cardiology"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
@@ -105,7 +106,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_medium"
                                 android:text="Nephrology"
                                 android:textSize="15dp">                      <!--TEXT HERE-->
 
@@ -143,7 +145,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_medium"
                                 android:text="ENT"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
@@ -181,8 +184,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
                                 android:text="Gastroenterology"
+                                android:fontFamily="@font/inter_medium"
                                 android:textSize="15dp">                      <!--TEXT HERE-->
 
                             </TextView>
@@ -219,9 +223,49 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_medium"
                                 android:text="Gynaecology"
                                 android:textSize="15dp">                     <!--TEXT HERE-->
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="7dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">                 <!--COPY  FOR MORE CARDS-->
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_broken_image">    <!--IMAGE HERE-->
+
+                            </de.hdodenhof.circleimageview.CircleImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Orthology"
+                                android:fontFamily="@font/inter_medium"
+                                android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
 
@@ -336,8 +380,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
                                 android:text="Dr. John Sinha"
+                                android:fontFamily="@font/inter_medium"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -373,8 +418,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
                                 android:text="Dr. Ella Bose"
+                                android:fontFamily="@font/inter_medium"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -410,8 +456,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="7dp"
+                                android:layout_marginTop="4dp"
                                 android:text="Dr. Anne Rhoades"
+                                android:fontFamily="@font/inter_medium"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -440,13 +487,13 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="Emergency centre"
                 android:textAlignment="viewStart"
-                android:textColor="@color/not_black"
                 android:textSize="12sp"
+                android:textColor="@color/white"
                 tools:ignore="RtlCompat" />
 
             <Button
@@ -456,12 +503,12 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="Edit your medical profile"
                 android:textAlignment="viewStart"
-                android:textColor="@color/not_black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
                 tools:ignore="RtlCompat" />
 
@@ -472,12 +519,12 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="open personal vault"
                 android:textAlignment="viewStart"
-                android:textColor="@color/not_black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
                 tools:ignore="RtlCompat" />
 
@@ -488,12 +535,12 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="buy medicines"
                 android:textAlignment="viewStart"
-                android:textColor="@color/not_black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
                 tools:ignore="RtlCompat" />
 

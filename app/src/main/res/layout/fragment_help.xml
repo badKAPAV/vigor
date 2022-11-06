@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You think this is a help and support page?\nNaah bro we just fucking with ya. I made this shit cuz I liked it.\nYou'll gimme money cuz you need this.\nSo fuck off already and stop opening this page.\n\nRegards,\nLead Frontend dev KAPAV   "
+        android:textColor="@color/red"
+        android:fontFamily="@font/inter_semibold"/>
+
+</LinearLayout>

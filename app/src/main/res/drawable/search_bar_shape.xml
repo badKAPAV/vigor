@@ -6,8 +6,11 @@
         android:width="240dp"
         android:height="30dp"/>
     <solid
-        android:color="@color/white"/>
+        android:color="#424242"/>
     <corners
         android:radius="5dp"/>
+    <stroke
+        android:width="0.1dp"
+        android:color="#555555"/>
 
 </shape>

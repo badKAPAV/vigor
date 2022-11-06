@@ -140,10 +140,13 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Continue"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:fontFamily="@font/inter_medium"/>
 
 </LinearLayout>
