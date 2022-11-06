@@ -43,7 +43,7 @@
     </string-array>
 
     <!--Appointment details-->
-    <string name="noOfAppointments">You have X appointment(s) this month</string>
+    <string name="noOfAppointments">You have 4 appointment(s) this month</string>
     <string name="appointmentDateDay">29</string>
     <string name="appointmentDateMonth">NOV</string>
     <string name="appointmentLocation">Apollo Clinic, Newtown</string>
