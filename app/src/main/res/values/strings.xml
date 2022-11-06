@@ -42,4 +42,16 @@
         <item>Cash</item>
     </string-array>
 
+    <!--Appointment details-->
+    <string name="noOfAppointments">You have X appointment(s) this month</string>
+    <string name="appointmentDateDay">29</string>
+    <string name="appointmentDateMonth">NOV</string>
+    <string name="appointmentLocation">Apollo Clinic, Newtown</string>
+    <string name="appointmentDoctor">Dr. Anne Rhoades</string>
+    <string name="appointmentPaymentMethod">UPI</string>
+    <string name="appointmentTime">11:45 AM</string>
+    <string name="appointmentStatus">Confirmed</string>
+    <string name="appointmentMethod">In-clinic</string>
+    <string name="appointmentCategory">Cardiology</string>
+
 </resources>
