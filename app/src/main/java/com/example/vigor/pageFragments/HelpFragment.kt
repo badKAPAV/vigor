@@ -1,10 +1,11 @@
-package com.example.vigor
+package com.example.vigor.pageFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.vigor.R
 
 class HelpFragment : Fragment() {
 

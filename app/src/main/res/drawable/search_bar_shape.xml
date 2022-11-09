@@ -5,8 +5,6 @@
     <size
         android:width="240dp"
         android:height="30dp"/>
-    <solid
-        android:color="#424242"/>
     <corners
         android:radius="5dp"/>
     <stroke

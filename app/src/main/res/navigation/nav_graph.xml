@@ -86,7 +86,7 @@
     </fragment>
     <fragment
         android:id="@+id/helpFragment"
-        android:name="com.example.vigor.HelpFragment"
+        android:name="com.example.vigor.pageFragments.HelpFragment"
         android:label="No help for you bitch"
         tools:layout="@layout/fragment_help">
         <action

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/prescriptionFragmentDoc"
+        android:icon="@drawable/ic_appointment"
+        android:title="Prescriptions" />
+
+    <item
+        android:id="@+id/profileFragmentDoc"
+        android:icon="@drawable/ic_account_outline_black"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/settingsFragmentDoc"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"/>
+
+</menu>

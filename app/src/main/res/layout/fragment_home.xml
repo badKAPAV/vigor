@@ -47,6 +47,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -86,6 +87,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -125,6 +127,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -164,6 +167,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -185,8 +189,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Gastroenterology"
                                 android:fontFamily="@font/inter_medium"
+                                android:text="Gastroenterology"
                                 android:textSize="15dp">                      <!--TEXT HERE-->
 
                             </TextView>
@@ -203,6 +207,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -242,6 +247,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -263,8 +269,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Orthology"
                                 android:fontFamily="@font/inter_medium"
+                                android:text="Orthology"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -360,6 +366,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -381,8 +388,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_medium"
                                 android:text="Dr. John Sinha"
-                                android:fontFamily="@font/inter_medium"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -398,6 +405,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -419,8 +427,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_medium"
                                 android:text="Dr. Ella Bose"
-                                android:fontFamily="@font/inter_medium"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -436,6 +444,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
+                        android:clickable="true"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="7dp">
 
@@ -457,8 +466,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Dr. Anne Rhoades"
                                 android:fontFamily="@font/inter_medium"
+                                android:text="Dr. Anne Rhoades"
                                 android:textSize="15dp">                    <!--TEXT HERE-->
 
                             </TextView>
@@ -487,13 +496,12 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="Emergency centre"
                 android:textAlignment="viewStart"
-                android:textSize="12sp"
                 android:textColor="@color/white"
+                android:textSize="12sp"
                 tools:ignore="RtlCompat" />
 
             <Button
@@ -503,7 +511,6 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="Edit your medical profile"
@@ -519,7 +526,6 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="open personal vault"
@@ -535,7 +541,6 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="0dp"
-                android:backgroundTint="#424242"
                 android:elevation="7dp"
                 android:fontFamily="@font/inter_semibold"
                 android:text="buy medicines"

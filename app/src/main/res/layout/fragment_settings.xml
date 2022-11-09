@@ -14,203 +14,167 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-
-        <LinearLayout
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/ic_broken_image" />
+            android:layout_height="100dp">
 
             <LinearLayout
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="26dp"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginBottom="0dp"
-                    android:fontFamily="@font/inter_semibold"
-                    android:gravity="start"
-                    android:text="Peter Parkour"
-                    android:textColor="@color/white"
-                    android:textSize="20dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ic_broken_image" />
 
-                <TextView
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginBottom="0dp"
-                    android:fontFamily="@font/inter_semibold"
-                    android:gravity="start"
-                    android:text="UID: 7407845358"
-                    android:textColor="#858585"
-                    android:textSize="12dp" />
+                    android:layout_marginTop="26dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:fontFamily="@font/inter_semibold"
+                        android:gravity="start"
+                        android:text="Peter Parkour"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:fontFamily="@font/inter_semibold"
+                        android:gravity="start"
+                        android:text="UID: 7407845358"
+                        android:textColor="#858585"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
+        </com.google.android.material.card.MaterialCardView>
 
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginTop="0dp"
-        app:cardElevation="0dp"
-        android:clickable="true"
-        android:id="@+id/bt_account_settings">
-
-        <LinearLayout
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/bt_account_settings"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="start"
-            android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
+            android:layout_height="65dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            app:cardElevation="0dp">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="19dp"
-                android:src="@drawable/ic_account" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="25dp"
-                android:fontFamily="@font/inter_semibold"
-                android:text="Account "
-                android:textSize="12dp">                    <!--TEXT HERE-->
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/ic_account" />
 
-            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Account "
+                    android:textSize="12dp">                    <!--TEXT HERE-->
 
-        </LinearLayout>
+                </TextView>
 
-    </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginTop="0dp"
-        app:cardElevation="0dp"
-        android:clickable="true"
-        android:id="@+id/bt_switch_to_doc">
+        </com.google.android.material.card.MaterialCardView>
 
-        <LinearLayout
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/bt_help"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="start"
-            android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
+            android:layout_height="65dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            app:cardElevation="0dp">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="19dp"
-                android:src="@drawable/ic_doctor" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="25dp"
-                android:fontFamily="@font/inter_semibold"
-                android:text="Login as Doctor"
-                android:textSize="12dp">                    <!--TEXT HERE-->
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/ic_help" />
 
-            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Help and Support"
+                    android:textSize="12dp">                    <!--TEXT HERE-->
 
-        </LinearLayout>
+                </TextView>
 
-    </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginTop="0dp"
-        app:cardElevation="0dp"
-        android:clickable="true"
-        android:id="@+id/bt_help">
+        </com.google.android.material.card.MaterialCardView>
 
-        <LinearLayout
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/bt_log_out"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="start"
-            android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
+            android:layout_height="65dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            app:cardElevation="0dp">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="19dp"
-                android:src="@drawable/ic_help" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="25dp"
-                android:fontFamily="@font/inter_semibold"
-                android:text="Help and Support"
-                android:textSize="12dp">                    <!--TEXT HERE-->
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/ic_arrow_left" />
 
-            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Log out"
+                    android:textColor="@color/red"
+                    android:textSize="12dp">                    <!--TEXT HERE-->
 
-        </LinearLayout>
+                </TextView>
 
-    </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginTop="0dp"
-        app:cardElevation="0dp"
-        android:clickable="true"
-        android:id="@+id/bt_log_out">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="start"
-            android:orientation="horizontal">                 <!--COPY  FOR MORE CARDS-->
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="19dp"
-                android:src="@drawable/ic_arrow_left" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="25dp"
-                android:fontFamily="@font/inter_semibold"
-                android:text="Log out"
-                android:textColor="@color/red"
-                android:textSize="12dp">                    <!--TEXT HERE-->
-
-            </TextView>
-
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
+        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
 

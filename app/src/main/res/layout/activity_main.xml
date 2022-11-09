@@ -24,6 +24,7 @@
         android:layout_height="55dp"
         android:id="@+id/bottom_navigation"
         app:menu="@menu/menu"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:labelVisibilityMode="selected"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
