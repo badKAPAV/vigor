@@ -54,4 +54,8 @@
     <string name="appointmentMethod">In-clinic</string>
     <string name="appointmentCategory">Cardiology</string>
 
+    <string name="d_name">Doctor name</string>
+    <string name="d_category">Doctor expertise</string>
+    <string name="d_schooling">Schooling details go here</string>
+
 </resources>

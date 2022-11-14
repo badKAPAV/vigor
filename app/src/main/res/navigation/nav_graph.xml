@@ -19,6 +19,9 @@
             app:destination="@id/appointmentFormFragment"
             app:enterAnim="@android:anim/slide_in_left"
             app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_doctorInfoPageFragment"
+            app:destination="@id/doctorInfoPageFragment" />
     </fragment>
 
     <fragment
@@ -39,6 +42,9 @@
         <action
             android:id="@+id/action_appointmentFragment_to_storeFragment"
             app:destination="@id/storeFragment" />
+        <action
+            android:id="@+id/action_appointmentFragment_to_doctorInfoPageFragment"
+            app:destination="@id/doctorInfoPageFragment" />
     </fragment>
 
     <fragment
@@ -92,6 +98,14 @@
         <action
             android:id="@+id/action_helpFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorInfoPageFragment"
+        android:name="com.example.vigor.pageFragments.DoctorInfoPageFragment"
+        tools:layout="@layout/fragment_doctor_info_page">
+        <action
+            android:id="@+id/action_doctorInfoPageFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
 
